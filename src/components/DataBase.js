@@ -28,6 +28,7 @@ function DuLieuSanBongDa() {
                     <p><strong>Mô tả:</strong> {detail.description}</p>
                     <p><strong>Giờ mở cửa:</strong> {detail.gioMoCua}</p>
                     <img src={detail.hinhAnh} alt={detail.diaDiem} />
+                  
         </div>
     );
 }

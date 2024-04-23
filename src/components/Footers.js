@@ -1,14 +1,10 @@
 import React from 'react';
 import '../index.css';
-
 function Footer() {
     return (
-        <footer className="footer">
-            <div className="footer-text">
-                <p>Copyright &copy; 2024 | All Rights Reserved.</p>
-            </div>
-            <div className="footer-iconTop">
-                <a href="#home"><i className="bx bx-up-arrow-alt"></i></a>
+        <footer className="fixed bottom-0 left-0 w-full bg-gray-100 py-4">
+            <div className="container mx-auto">
+                <p className="text-center text-gray-400">Copyright &copy; 2024 | DATSANTRUCTUYEN</p>
             </div>
         </footer>
     );

@@ -32,7 +32,7 @@ const createServiceApi = () => {
 
 	const createPartner = (data)=> api.post("/partner", data );
 
-	const getPitchs = (params) => api.get("/pitch",params);
+	const getPitchs = (params) => api.get("/pitch", params);
 
 	const getPitchById = (id) => api.get("/pitch/" + id,);
 

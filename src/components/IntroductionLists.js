@@ -19,8 +19,9 @@ const Introduction = () => {
                 <p className="mb-2"><span className="font-bold">4. Hỗ Trợ Khách Hàng:</span> Đội ngũ hỗ trợ khách hàng của chúng tôi luôn sẵn lòng hỗ trợ bạn trong quá trình sử dụng dịch vụ và giải đáp mọi thắc mắc của bạn.</p>
 
                 <h2 className="text-2xl font-bold mb-2 text-blue-600">Bắt Đầu Ngay</h2>
+                <a href="/danh-sach-san" className="ml-[70%] mb-[50%]  bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700">Đặt Sân Ngay</a>
                 <p className="mb-6">Hãy bắt đầu trải nghiệm ngay hôm nay và khám phá thế giới sân chơi thể thao tại Đà Nẵng cùng Đặt Sân Trực Tuyến!</p>
-                <a href="#" className="bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700">Đặt Sân Ngay</a>
+              
             </div>
         </div>
     </div>

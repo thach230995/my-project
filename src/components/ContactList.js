@@ -27,7 +27,7 @@ const ContactPage = () => {
         <div className="bg-white p-8 rounded-lg shadow-md relative">
           <div className='relative'>
             <img src={D4} alt="" className="" />
-            <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-4">
+            <div className="absolute bottom-0 left-0 right-0 bg-black  text-white p-4">
               <p className="text-xl font-bold text-amber-300">Email</p>
               <p><strong className='text-xl font-bold'>Email cho chúng tôi để nhận phản hồi & tư vấn thắc mắc:</strong></p>
               <a href="mailto:thachngocpham95@gmail.com" className="text-blue-500">thachngocpham95@gmail.com</a>
@@ -46,6 +46,7 @@ const ContactPage = () => {
           </div>
         </div>
       </div>
+      
     </div>
   );
 };
